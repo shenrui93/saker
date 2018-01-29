@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>29373c42-b362-460f-bac5-eae9e486bc4a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UyiBaseCode</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DBHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DefaultMethodManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Array.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Bytes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_DataTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_DateTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Exception.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Guid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_IEnumerable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Object.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Stream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_String.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Type.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_Uri.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\_XmlExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\FileHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\ISerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\IBinnaryOperation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\NetworkStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\BinnaryOperation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\StreamWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\AcceptedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\BufferReceiveEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\IPipelineSocket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\ISocketAgentClientSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\ISocketListen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\LogMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Pipeline\PipelineSocket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Pipeline\SocketAgent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Pipeline\SocketServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Pipeline\UDP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Security\SslSocket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Security\SslSocketServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\SocketHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\SocketNetworkStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\Statistics\StatisticsManage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\SocketConstManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Net\TransferPacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OperationEndianOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProcessHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\DESEncryptHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\DESEncryptServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RSA\RSACryptoService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\RSA\RSACryptoServiceProviderExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Security\Encryption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\CommonID.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\MemberIgnore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\NonCustomH5Serializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\NonH5Serializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\PacketCodeString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\PacketContractAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\PacketMemberAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Attributes\PacketNonCustomSerializerAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Base64Serialzier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\BooleanTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\ByteArrayTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\ByteTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\CharTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\DataTableTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\DateTimeTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\DecimalTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\DoubleTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\EnumTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\FloatTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\GUIDTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\Int16TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\Int32TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\Int64TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\SByteTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\StringTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\TimeSpanTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\UInt16TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\UInt32TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BaseType\UInt64TypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\BinarySerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\DynmaicType\ArrayTypeSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\DynmaicType\DynmaicSerialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Error.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\ITypeSerialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\JsonHeper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\PrimitiveTypeSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\TypeSerializationBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\TypeSerializationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\TypeSerializerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\DataTableTypeSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\_SerializerExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Text\StringJoiner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\DoublePrioritySemaphore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\IThreadPoolProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Threading\ThreadPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\AppConfigBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\FilterWordPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\IMessageQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\MessageQueueN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\RandomService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\StackTraceHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\TimerService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DebugBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SystemErrorProvide.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ToolsMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validations\IDCardValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\IWebSocketSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\Pipeline\WebSocket2IPipeline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebMessageData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketClient\WebSocketClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketOpcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketSessionMessageComingArg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocketSSLServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocket_Handle_Process\WebSocketHandleProcessV13.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebSocketServer\WebSocket_Handle_Process\WebSocket_Handle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\HttpHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\HttpRequestMatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\Http\HttpOperation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\ServerCacheManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\Session\IWebDataSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\Session\WebDataSerializerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\WebHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Web\WebParamData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Web\RestfulApi\" />
+  </ItemGroup>
+</Project>

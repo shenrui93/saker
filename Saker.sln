@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ShareCode", "ShareCode\ShareCode.shproj", "{29373C42-B362-460F-BAC5-EAE9E486BC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saker", "Saker\Saker.csproj", "{33BED252-ADE1-4E7A-A131-F6571E9970E2}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ShareCode\UyiBaseCode.projitems*{29373c42-b362-460f-bac5-eae9e486bc4a}*SharedItemsImports = 13
+		ShareCode\UyiBaseCode.projitems*{33bed252-ade1-4e7a-a131-f6571e9970e2}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DTEST|Any CPU = DTEST|Any CPU
+		Rel86|Any CPU = Rel86|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseTest|Any CPU = ReleaseTest|Any CPU
+		Review|Any CPU = Review|Any CPU
+		Test|Any CPU = Test|Any CPU
+		测试版本发布|Any CPU = 测试版本发布|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.DTEST|Any CPU.ActiveCfg = DTEST|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.DTEST|Any CPU.Build.0 = DTEST|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Rel86|Any CPU.ActiveCfg = Rel86|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Rel86|Any CPU.Build.0 = Rel86|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.ReleaseTest|Any CPU.ActiveCfg = ReleaseTest|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.ReleaseTest|Any CPU.Build.0 = ReleaseTest|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Review|Any CPU.ActiveCfg = Review|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Review|Any CPU.Build.0 = Review|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.Test|Any CPU.Build.0 = Test|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.测试版本发布|Any CPU.ActiveCfg = 测试版本发布|Any CPU
+		{33BED252-ADE1-4E7A-A131-F6571E9970E2}.测试版本发布|Any CPU.Build.0 = 测试版本发布|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
